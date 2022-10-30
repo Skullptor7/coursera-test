@@ -30,3 +30,12 @@
 .nomargin{
 	margin: 0;
 }
+@media (max-width: 1000px)
+{
+	.change-photos .change-photo img {
+		  object-fit: cover;
+		  width: 80%;
+		  display: block;
+		  margin: 0 auto;
+		}
+}
