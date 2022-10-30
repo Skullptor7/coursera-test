@@ -1,0 +1,32 @@
+
+.change-photos {
+  	padding: 3%;
+}
+		.change-photos .change-photo img {
+		  object-fit: cover;
+		  width: 40%;
+		  display: block;
+		  margin: 0 auto;
+		}
+
+		/* Приховуємо другу картинку */
+		.change-photos .change-photo:nth-of-type(2) {
+		  display: none;
+		}
+
+		/* При наведенні курсора міняємо картинки */
+
+		.change-photos:hover .change-photo:nth-of-type(1) {
+		  display: none;
+		}
+
+		.change-photos:hover .change-photo:nth-of-type(2) {
+		  display: block;
+		}
+.line-style {
+	margin: 0;
+}
+
+.nomargin{
+	margin: 0;
+}
