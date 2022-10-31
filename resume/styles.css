@@ -1,4 +1,49 @@
 
+html{
+   scroll-behavior: smooth;
+}
+.pictures{
+	display: inline-block;
+	width: 45%;
+	padding: 10px;
+	margin-left: 1%;
+    vertical-align: middle;
+}
+.pictures2{
+	display: inline-block;
+	width: 45%;
+	padding: 5px;
+	margin-left: 1%;
+    vertical-align: middle;
+}
+.picturesEdu {
+	display: inline-block;
+	width: 40%;
+	padding: 10px;
+	margin-left: 1%;
+    vertical-align: middle;
+}
+#flR {
+	margin-left: 13%;
+}
+.headers img{
+	padding: 15px;
+	display: block;
+	width: 30%;
+	margin: 0 auto;	
+}
+.headers2 img{
+	padding: 15px;
+	display: block;
+	width: 70%;
+	margin: 0 auto;	
+}
+.headersS img{
+	padding: 15px;
+	display: block;
+	width: 20%;
+	margin: 0 auto;	
+}
 .change-photos {
   	padding: 3%;
 }
@@ -28,8 +73,11 @@
 }
 
 .nomargin{
+	background-color: whitesmoke;
 	margin: 0;
 }
+
+
 @media (max-width: 1000px)
 {
 	.change-photos .change-photo img {
@@ -38,4 +86,64 @@
 		  display: block;
 		  margin: 0 auto;
 		}
+}
+
+#menu ul li {
+				display: inline-table;
+				color: #363636;
+				font-size: 1em;
+				font-family: century gothic, times new roman;
+				text-transform: uppercase;
+				text-align: center;
+       			width:24.75%;
+       			margin: 0;
+       			padding: 0;
+       			border: 0;
+			}
+#menu2 ul li {
+				display: inline-block;
+       			width:19%;
+    			vertical-align: middle;
+    			float: right;
+    			margin-top: 100px;
+    			margin-bottom: 250px;
+			}
+a{
+	color: #363636;
+	text-decoration: none;
+}
+a:hover {
+	color: #be9952;
+	cursor: pointer;
+}
+
+@media (max-width: 1000px)
+{
+	#menu ul li {
+		display: table-header-group;
+		font-size: 3em;
+	}
+}
+p {
+	display: block;
+	padding: 2%;
+	width: 90%;
+	color:  #363636;
+	font-size: 2em;
+	text-align: center;
+	font-family: century gothic, times new roman;
+}
+.golden{
+	font-family: Arial;
+	font-weight: bold;
+	color: #be9952;
+}
+#workexp ul li {
+	display: table-column;
+	color: #363636;
+	font-size: 1em;
+	font-family: century gothic, times new roman; 
+	text-align: left;
+	text-decoration: underline;
+	text-decoration-color: #be9952;
 }
